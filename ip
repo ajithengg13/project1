@@ -6,7 +6,6 @@ echo "$Ip"
 echo "\n [linux] " >> /etc/ansible/hosts
 echo "\n $Ip " >> /etc/ansible/hosts
 echo "\n [linux:vars] " >> /etc/ansible/hosts
-echo "\n ansible_connection=ssh" >> /etc/ansible/hosts
-echo "\n ansible_user=vmadmin" >> /etc/ansible/hosts
-echo "\n ansible_ssh_pass=AjithKumar@1314" >> /etc/ansible/hosts
+echo "ansible_user=vmadmin" >> /etc/ansible/hosts
+echo "ansible_password=AjithKumar@1314" >> /etc/ansible/hosts
 
