@@ -1,0 +1,8 @@
+#!/bin/sh
+
+Ip=$(echo `az vm list-ip-addresses -g jenkins-rg -n dock |head -7 |tail -1 |cut -c 12-19`)
+echo "$Ip"
+
+echo "\n [linux] " >> /etc/ansible/hosts
+echo "\n $Ip " >> /etc/ansible/hosts
+

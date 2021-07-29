@@ -1,0 +1,13 @@
+#!/usr/bin/expect
+
+spawn ssh-copy-id vmadmin@10.0.1.6
+expect "password"
+send "yes\r"
+expect "pass"
+send "Ajithkumar@1314\r"
+interact
+
+
+
+
+ 
