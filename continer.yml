@@ -8,12 +8,12 @@
               password: Ajithkumar@1314
   - name: pull 
     docker_image:
-            name: ajithengg13/projectajith1:protomcat
+            name: ajithengg13/projectajith1:{{imagename}}
 
   - name: create container
     docker_container:
             name: web
-            image: ajithengg13/projectajith1:protomcat
+            image: ajithengg13/projectajith1:{{imagename}}
             state: started
             ports:
                     "80:8080"
