@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>project---success</h2>
+<h2>project---succes</h2>
 </body>
 </html>
